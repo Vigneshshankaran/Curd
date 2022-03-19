@@ -44,11 +44,11 @@ function App() {
             </div>
             <div>
                 <Routes>
-                      <Route path='/dashboard' element={<Dashboard data={data}/>}/>
+                      <Route path='/dashboard1' element={<Dashboard data={data}/>}/>
                       <Route path ='/all-students' element={<AllStudents data={{students,setStudents}}/>}/>
                       <Route path = '/add-student' element={<AddStudents data={{students,setStudents}}/>}/>
                       <Route path ='/edit-student/:id' element={<EditStudent data={{students,setStudents}}/>}/>
-                      <Route path = '/' element={<Dashboard data={data}/>}/>
+                      <Route path = '/dashboard' element={<Dashboard data={data}/>}/>
                 </Routes>
             </div>
         </div>
